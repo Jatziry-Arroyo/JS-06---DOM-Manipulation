@@ -16,7 +16,7 @@ const CARDS_CONTAINER = document.getElementById("card-container"); // se puede p
 //get element id -id, get by name - class
 const USER = {
     id: 1,
-    username: 'User Name',
+    username: 'Jose_L2010',
     desc: 'Sobre mi',
     age: 26,
     fav_books: {
@@ -24,6 +24,46 @@ const USER = {
                 'El Principito', 
                 'Brida', 
                 'Ensayo sobre la ceguera'], 
+    },
+
+    id: 2,
+    username: "booklover123",
+    desc: "Avid reader and coffee enthusiast.",
+    age: 29,
+    fav_books: {
+        books: ["To Kill a Mockingbird", 
+                "1984", 
+                "Pride and Prejudice"]
+    },
+
+    id: 3,
+    username: "literature_junkie",
+    desc: "Poetry lover and amateur writer.",
+    age: 35,
+    fav_books: {
+        books: ["The Great Gatsby", 
+                "Invisible Man", 
+                "Beloved"]
+    },
+
+    id: 4,
+    username: "Sonii899",
+    desc: "Disfruto de la lectura, sobre todo las novelas románticas.",
+    age: 48,
+    fav_books: {
+        books: ["El amor en los tiempos de Cólera", 
+                "Orgullo y prejuicio", 
+                "El Ruiseñor"]
+    },
+
+    id: 5,
+    username: "Frankie2024",
+    desc: "Un libro y un buen vino.",
+    age: 53,
+    fav_books: {
+        books: ["Don Quijote de la Mancha", 
+                "Las mil y una noches", 
+                "Odisea"]
     }
 }
 
@@ -81,30 +121,5 @@ USERS.forEach((user) => {
     injectData(cardData, user);
 });
     
-
-
-/**
- * const users = [
-  {
-    id: 1,
-    username: "booklover123",
-    description: "Avid reader and coffee enthusiast.",
-    age: 29,
-    fav_books: {
-      books: ["To Kill a Mockingbird", "1984", "Pride and Prejudice"]
-    }
-  },
-  {
-    id: 2,
-    username: "literature_junkie",
-    description: "Poetry lover and amateur writer.",
-    age: 35,
-    fav_books: {
-      books: ["The Great Gatsby", "Invisible Man", "Beloved"]
-    }
-  }
-];
- */
-
 
 
